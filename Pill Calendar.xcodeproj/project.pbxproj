@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B251FA420142A9500B38792 /* PillListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B251FA320142A9500B38792 /* PillListViewController.swift */; };
+		6B251FA62014377200B38792 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B251FA52014377200B38792 /* AddViewController.swift */; };
+		6B251FA82014377F00B38792 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B251FA72014377F00B38792 /* EditViewController.swift */; };
+		6B251FC82014639300B38792 /* PillCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B251FC72014639300B38792 /* PillCell.xib */; };
+		6B25C5372014730C00E31D5D /* CustomPillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B25C5362014730C00E31D5D /* CustomPillCell.swift */; };
+		6B25C5392014802000E31D5D /* pillContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B25C5382014802000E31D5D /* pillContent.swift */; };
+		6B25C53B2014A2B100E31D5D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B25C53A2014A2B100E31D5D /* GoogleService-Info.plist */; };
+		6BD441002013DB3600EF37B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD440FF2013DB3600EF37B9 /* AppDelegate.swift */; };
+		6BD441022013DB3600EF37B9 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD441012013DB3600EF37B9 /* WelcomeViewController.swift */; };
+		6BD441052013DB3600EF37B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BD441032013DB3600EF37B9 /* Main.storyboard */; };
+		6BD441072013DB3600EF37B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BD441062013DB3600EF37B9 /* Assets.xcassets */; };
+		6BD4410A2013DB3600EF37B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BD441082013DB3600EF37B9 /* LaunchScreen.storyboard */; };
+		AA1188B869BD21E92BE615AC /* Pods_Pill_Calendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D1C55C71FB5BDE1BBC0E31 /* Pods_Pill_Calendar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B251FA320142A9500B38792 /* PillListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillListViewController.swift; sourceTree = "<group>"; };
+		6B251FA52014377200B38792 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		6B251FA72014377F00B38792 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		6B251FC72014639300B38792 /* PillCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PillCell.xib; sourceTree = "<group>"; };
+		6B25C5362014730C00E31D5D /* CustomPillCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPillCell.swift; sourceTree = "<group>"; };
+		6B25C5382014802000E31D5D /* pillContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pillContent.swift; sourceTree = "<group>"; };
+		6B25C53A2014A2B100E31D5D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6BD440FC2013DB3600EF37B9 /* Pill Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pill Calendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BD440FF2013DB3600EF37B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BD441012013DB3600EF37B9 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		6BD441042013DB3600EF37B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BD441062013DB3600EF37B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BD441092013DB3600EF37B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BD4410B2013DB3600EF37B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71D1C55C71FB5BDE1BBC0E31 /* Pods_Pill_Calendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pill_Calendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8044DD89CA8FF2E0A982D1F /* Pods-Pill Calendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pill Calendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pill Calendar/Pods-Pill Calendar.debug.xcconfig"; sourceTree = "<group>"; };
+		B53F37B8F3AF849F6F9CB2C2 /* Pods-Pill Calendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pill Calendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pill Calendar/Pods-Pill Calendar.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BD440F92013DB3600EF37B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1188B869BD21E92BE615AC /* Pods_Pill_Calendar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		015982BAA5AA8E6776E5D8FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71D1C55C71FB5BDE1BBC0E31 /* Pods_Pill_Calendar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B25C535201472EA00E31D5D /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6B251FC72014639300B38792 /* PillCell.xib */,
+				6B25C5362014730C00E31D5D /* CustomPillCell.swift */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		6BD440F32013DB3600EF37B9 = {
+			isa = PBXGroup;
+			children = (
+				6BD440FE2013DB3600EF37B9 /* Pill Calendar */,
+				6BD440FD2013DB3600EF37B9 /* Products */,
+				857F97891ECECEBEA20BB9C3 /* Pods */,
+				015982BAA5AA8E6776E5D8FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6BD440FD2013DB3600EF37B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BD440FC2013DB3600EF37B9 /* Pill Calendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BD440FE2013DB3600EF37B9 /* Pill Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				6BD441112013F69900EF37B9 /* View */,
+				6BD441122013F6A000EF37B9 /* Model */,
+				6BD441132013F6AC00EF37B9 /* Controller */,
+				6BD441152013F6C700EF37B9 /* Supporting Files */,
+			);
+			path = "Pill Calendar";
+			sourceTree = "<group>";
+		};
+		6BD441112013F69900EF37B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6BD441032013DB3600EF37B9 /* Main.storyboard */,
+				6B25C535201472EA00E31D5D /* Custom Cell */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6BD441122013F6A000EF37B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B25C5382014802000E31D5D /* pillContent.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6BD441132013F6AC00EF37B9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6BD440FF2013DB3600EF37B9 /* AppDelegate.swift */,
+				6BD441012013DB3600EF37B9 /* WelcomeViewController.swift */,
+				6B251FA320142A9500B38792 /* PillListViewController.swift */,
+				6BD441062013DB3600EF37B9 /* Assets.xcassets */,
+				6BD441082013DB3600EF37B9 /* LaunchScreen.storyboard */,
+				6B251FA52014377200B38792 /* AddViewController.swift */,
+				6B251FA72014377F00B38792 /* EditViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6BD441152013F6C700EF37B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B25C53A2014A2B100E31D5D /* GoogleService-Info.plist */,
+				6BD4410B2013DB3600EF37B9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		857F97891ECECEBEA20BB9C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8044DD89CA8FF2E0A982D1F /* Pods-Pill Calendar.debug.xcconfig */,
+				B53F37B8F3AF849F6F9CB2C2 /* Pods-Pill Calendar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BD440FB2013DB3600EF37B9 /* Pill Calendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BD4410E2013DB3600EF37B9 /* Build configuration list for PBXNativeTarget "Pill Calendar" */;
+			buildPhases = (
+				455F0365819C1DC8814064B0 /* [CP] Check Pods Manifest.lock */,
+				6BD440F82013DB3600EF37B9 /* Sources */,
+				6BD440F92013DB3600EF37B9 /* Frameworks */,
+				6BD440FA2013DB3600EF37B9 /* Resources */,
+				7376C5921731AD0CBD833256 /* [CP] Embed Pods Frameworks */,
+				1DBC4B948F481BDCE99E497B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pill Calendar";
+			productName = "Pill Calendar";
+			productReference = 6BD440FC2013DB3600EF37B9 /* Pill Calendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BD440F42013DB3600EF37B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = CHRYAKI;
+				TargetAttributes = {
+					6BD440FB2013DB3600EF37B9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6BD440F72013DB3600EF37B9 /* Build configuration list for PBXProject "Pill Calendar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BD440F32013DB3600EF37B9;
+			productRefGroup = 6BD440FD2013DB3600EF37B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BD440FB2013DB3600EF37B9 /* Pill Calendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BD440FA2013DB3600EF37B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B25C53B2014A2B100E31D5D /* GoogleService-Info.plist in Resources */,
+				6BD4410A2013DB3600EF37B9 /* LaunchScreen.storyboard in Resources */,
+				6BD441072013DB3600EF37B9 /* Assets.xcassets in Resources */,
+				6B251FC82014639300B38792 /* PillCell.xib in Resources */,
+				6BD441052013DB3600EF37B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DBC4B948F481BDCE99E497B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pill Calendar/Pods-Pill Calendar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		455F0365819C1DC8814064B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pill Calendar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7376C5921731AD0CBD833256 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pill Calendar/Pods-Pill Calendar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pill Calendar/Pods-Pill Calendar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BD440F82013DB3600EF37B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B251FA62014377200B38792 /* AddViewController.swift in Sources */,
+				6B25C5372014730C00E31D5D /* CustomPillCell.swift in Sources */,
+				6B25C5392014802000E31D5D /* pillContent.swift in Sources */,
+				6BD441022013DB3600EF37B9 /* WelcomeViewController.swift in Sources */,
+				6B251FA82014377F00B38792 /* EditViewController.swift in Sources */,
+				6BD441002013DB3600EF37B9 /* AppDelegate.swift in Sources */,
+				6B251FA420142A9500B38792 /* PillListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BD441032013DB3600EF37B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BD441042013DB3600EF37B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BD441082013DB3600EF37B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BD441092013DB3600EF37B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BD4410C2013DB3600EF37B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BD4410D2013DB3600EF37B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BD4410F2013DB3600EF37B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8044DD89CA8FF2E0A982D1F /* Pods-Pill Calendar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AKNY7V3VE8;
+				INFOPLIST_FILE = "Pill Calendar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHRYAKI.Pill-Calendar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6BD441102013DB3600EF37B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B53F37B8F3AF849F6F9CB2C2 /* Pods-Pill Calendar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AKNY7V3VE8;
+				INFOPLIST_FILE = "Pill Calendar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHRYAKI.Pill-Calendar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BD440F72013DB3600EF37B9 /* Build configuration list for PBXProject "Pill Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BD4410C2013DB3600EF37B9 /* Debug */,
+				6BD4410D2013DB3600EF37B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BD4410E2013DB3600EF37B9 /* Build configuration list for PBXNativeTarget "Pill Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BD4410F2013DB3600EF37B9 /* Debug */,
+				6BD441102013DB3600EF37B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BD440F42013DB3600EF37B9 /* Project object */;
+}
