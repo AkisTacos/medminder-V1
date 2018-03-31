@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Firebase
 import SVProgressHUD
 
 class WelcomeViewController: UIViewController, UITextFieldDelegate {
@@ -30,7 +29,7 @@ class WelcomeViewController: UIViewController, UITextFieldDelegate {
         dateFormatter.amSymbol = "AM"
         dateFormatter.pmSymbol = "PM"
         
-        var email = String(nameInput.text!)
+        var name = String(nameInput.text!)
  
         var wakeUpTime = dateFormatter.string(from: wakeUpPicker.date)
         var bedTime = dateFormatter.string(from: bedTimePicker.date)
@@ -38,21 +37,7 @@ class WelcomeViewController: UIViewController, UITextFieldDelegate {
         var lunchTime = dateFormatter.string(from:lunchPicker.date)
         var dinnerTime = dateFormatter.string(from:dinnerPicker.date)
         
-        email = email + "@Medminder.com"
-    
-        let pass = "123456"
         
-        Auth.auth().createUser(withEmail: email, password: pass) { (user, error) in
-            if error != nil {
-                print(error!)
-                
-            } else {
-                // success
-                print("Data Success")
-                // after authentication
-                self.performSegue(withIdentifier: "goToMedication", sender: self)
-            }
-        }
         SVProgressHUD.dismiss()
 
     }
