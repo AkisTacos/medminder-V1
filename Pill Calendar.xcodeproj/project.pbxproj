@@ -14,6 +14,7 @@
 		6B25C5372014730C00E31D5D /* CustomPillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B25C5362014730C00E31D5D /* CustomPillCell.swift */; };
 		6B25C5392014802000E31D5D /* pillContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B25C5382014802000E31D5D /* pillContent.swift */; };
 		6B25C53B2014A2B100E31D5D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B25C53A2014A2B100E31D5D /* GoogleService-Info.plist */; };
+		6B2E274D2070394C0046375B /* AddDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2E274C2070394C0046375B /* AddDetailViewController.swift */; };
 		6BD441002013DB3600EF37B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD440FF2013DB3600EF37B9 /* AppDelegate.swift */; };
 		6BD441022013DB3600EF37B9 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD441012013DB3600EF37B9 /* WelcomeViewController.swift */; };
 		6BD441052013DB3600EF37B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BD441032013DB3600EF37B9 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 		6B25C5362014730C00E31D5D /* CustomPillCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPillCell.swift; sourceTree = "<group>"; };
 		6B25C5382014802000E31D5D /* pillContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pillContent.swift; sourceTree = "<group>"; };
 		6B25C53A2014A2B100E31D5D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6B2E274C2070394C0046375B /* AddDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDetailViewController.swift; sourceTree = "<group>"; };
 		6BD440FC2013DB3600EF37B9 /* Pill Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pill Calendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BD440FF2013DB3600EF37B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BD441012013DB3600EF37B9 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				6BD441082013DB3600EF37B9 /* LaunchScreen.storyboard */,
 				6B251FA52014377200B38792 /* AddViewController.swift */,
 				6B251FA72014377F00B38792 /* EditViewController.swift */,
+				6B2E274C2070394C0046375B /* AddDetailViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				6B25C5392014802000E31D5D /* pillContent.swift in Sources */,
 				6BD441022013DB3600EF37B9 /* WelcomeViewController.swift in Sources */,
 				6B251FA82014377F00B38792 /* EditViewController.swift in Sources */,
+				6B2E274D2070394C0046375B /* AddDetailViewController.swift in Sources */,
 				6BD441002013DB3600EF37B9 /* AppDelegate.swift in Sources */,
 				6B251FA420142A9500B38792 /* PillListViewController.swift in Sources */,
 			);
