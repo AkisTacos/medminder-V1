@@ -8,10 +8,6 @@ target 'Pill Calendar' do
   # Pods for Pill Calendar
 
 pod 'SVProgressHUD'
-pod 'Firebase'
-pod 'Firebase/Database'
-pod 'Firebase/Core'
-pod 'Firebase/Auth'
 pod 'ChameleonFramework'
 
 post_install do |installer|

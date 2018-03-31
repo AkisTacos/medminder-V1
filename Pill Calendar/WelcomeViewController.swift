@@ -45,6 +45,7 @@ class WelcomeViewController: UIViewController, UITextFieldDelegate {
         Auth.auth().createUser(withEmail: email, password: pass) { (user, error) in
             if error != nil {
                 print(error!)
+                
             } else {
                 // success
                 print("Data Success")
