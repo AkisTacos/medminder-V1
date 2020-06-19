@@ -25,7 +25,7 @@ Implementing more constraints for the medicine, different contraindications of m
 [Firebase][Photoshop-cs6][Swift4][XCode-9]
 
 ## Created By
-Brad Eblin
-Aki Saito
-Ryan Tong
+Brad Eblin,
+Aki Saito,
+Ryan Tong,
 Chris Kelly
